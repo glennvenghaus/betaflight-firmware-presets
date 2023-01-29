@@ -1,6 +1,6 @@
 #$ TITLE: fpvapnea - Basic post build settings (CRSF/VISTA/Tango 2)
 #$ FIRMWARE_VERSION: 4.4
-#$ CATEGORY: RATES
+#$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: defaults, master, build
 #$ AUTHOR: gvapnea

@@ -1,6 +1,6 @@
 #$ TITLE: fpvapnea - DigiTwig- Bat GNB1100HV 43 (alert/gps)
 #$ FIRMWARE_VERSION: 4.4
-#$ CATEGORY: RATES
+#$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: defaults, master, build, bat, gps
 #$ AUTHOR: gvapnea

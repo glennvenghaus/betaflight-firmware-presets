@@ -137,6 +137,7 @@
     ],
     "category": [
       "OSD",
+      "OTHER",
       "RATES"
     ],
     "author": [
@@ -188,12 +189,12 @@
     },
     {
       "fullPath": "presets/4.4/other/BUILD - Basic post build settings.txt",
-      "hash": "9fdbdf09a83a453f2e13e9093c17499ba7675841ced5877742a5d537e1d6975f",
+      "hash": "694591c7883e310f44ae410b0265e996e6dd939272f36cfb62e114c77ff156d5",
       "title": "fpvapnea - Basic post build settings (CRSF/VISTA/Tango 2)",
       "firmware_version": [
         "4.4"
       ],
-      "category": "RATES",
+      "category": "OTHER",
       "status": "EXPERIMENTAL",
       "keywords": [
         "defaults",
@@ -205,12 +206,12 @@
     },
     {
       "fullPath": "presets/4.4/other/Cinebot30 - GNB1500HV - Alerts - Hover.txt",
-      "hash": "dc7eee3f4321689e686c90e73453842a820376597acd501fd72d128210a61b69",
+      "hash": "a8d599a4353fb989f689422f1892cb197ce796eb162c3ee91494d5a456087c19",
       "title": "fpvapnea - Cinebot30- Bat GNB1500HV 4S (alert/gps)",
       "firmware_version": [
         "4.4"
       ],
-      "category": "RATES",
+      "category": "OTHER",
       "status": "EXPERIMENTAL",
       "keywords": [
         "defaults",
@@ -224,12 +225,12 @@
     },
     {
       "fullPath": "presets/4.4/other/DigiTwig - GNB1100HV 3S - Alerts - Hover.txt",
-      "hash": "649192cba4d9deacf7a8d723d45fce763f81c82bc34e8c4e8695648043b7f0e4",
+      "hash": "288c1d40480912465ac1997866805617c194ce930d81b870dc244e453f5796ff",
       "title": "fpvapnea - DigiTwig- Bat GNB1100HV 43 (alert/gps)",
       "firmware_version": [
         "4.4"
       ],
-      "category": "RATES",
+      "category": "OTHER",
       "status": "EXPERIMENTAL",
       "keywords": [
         "defaults",
@@ -243,12 +244,12 @@
     },
     {
       "fullPath": "presets/4.4/other/LR Explorer - FLYW900HV - Alerts - Hover.txt",
-      "hash": "ef4484137493e346ace7f061dad06e6052646e2640072c01c782beba47cecb5b",
+      "hash": "226428860e6338586747edf9a9c39106ade168584800489176a9c9bbd1038f9d",
       "title": "fpvapnea - LR Explorer - Bat Expl 900Mah (alert/gps)",
       "firmware_version": [
         "4.4"
       ],
-      "category": "RATES",
+      "category": "OTHER",
       "status": "EXPERIMENTAL",
       "keywords": [
         "defaults",
@@ -262,12 +263,12 @@
     },
     {
       "fullPath": "presets/4.4/other/LR Explorer - LION FLYW3000Mah 4S - Alerts - Hover.txt",
-      "hash": "2ada53449817279f91055740f5d9a277ca3de84f5f3dceb4ae55764f8fc21118",
+      "hash": "39e59c75a656201519e03a91ad5dbb579bd0395f428dc32141671961d37bf819",
       "title": "fpvapnea - LR Explorer - Bat Lion 3000Mah (alert/gps)",
       "firmware_version": [
         "4.4"
       ],
-      "category": "RATES",
+      "category": "OTHER",
       "status": "EXPERIMENTAL",
       "keywords": [
         "defaults",

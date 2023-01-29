@@ -1,6 +1,6 @@
 #$ TITLE: fpvapnea - LR Explorer - Bat Lion 3000Mah (alert/gps)
 #$ FIRMWARE_VERSION: 4.4
-#$ CATEGORY: RATES
+#$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: defaults, master, build, bat, gps
 #$ AUTHOR: gvapnea
