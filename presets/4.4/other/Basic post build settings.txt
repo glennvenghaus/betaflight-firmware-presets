@@ -1,0 +1,61 @@
+#$ TITLE: GVAPNEA - Basic post build settings (CRSF/VISTA/Tango 2)
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: RATES
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: defaults, master, build
+#$ AUTHOR: gvapnea
+#$ DESCRIPTION: Basic post build settings (CRSF/VISTA/Tango 2)
+#$ PRIORITY: 0
+
+#  basics
+
+# feature
+feature -AIRMODE
+feature GPS
+feature TELEMETRY
+feature OSD
+feature LED_STRIP
+
+# beeper
+beeper -GPS_STATUS
+beeper -DISARM_REPEAT
+beeper -ON_USB
+
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+# map
+map TREA1234
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 1 2 1700 2100 0 0
+aux 2 27 3 1700 2100 0 0
+aux 3 13 1 1700 2100 0 0
+aux 4 28 2 900 1300 0 0
+aux 5 36 5 1700 2100 0 0
+aux 6 47 2 1300 1700 0 0
+
+# rxfail
+rxfail 3 s 1500
+rxfail 6 s 2000
+
+#master
+set rc_smoothing_auto_factor = 90
+set rc_smoothing_auto_factor_throttle = 28
+set rc_smoothing_setpoint_cutoff = 6
+set rc_smoothing_feedforward_cutoff = 6
+set rc_smoothing_throttle_cutoff = 20
+set serialrx_provider = CRSF
+set dshot_burst = ON
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
+set beeper_dshot_beacon_tone = 3
+set yaw_motors_reversed = ON
+set small_angle = 180
+set deadband = 3
+set yaw_deadband = 3
+set report_cell_voltage = ON
+set debug_mode = GYRO_SCALED

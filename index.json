@@ -136,21 +136,26 @@
       "4.4"
     ],
     "category": [
-      "OSD"
+      "OSD",
+      "RATES"
     ],
     "author": [
       "gvapnea"
     ],
     "keywords": [
+      "build",
+      "cinametic",
       "defaults",
-      "osd"
+      "master",
+      "osd",
+      "rates"
     ]
   },
   "presets": [
     {
       "fullPath": "presets/4.4/osd/OSD - GPS enabled Quad.txt",
-      "hash": "568e4ab40e7242fc4290fdc4e6aa82ae2d622d1d38377f34e0a84ed4a7c9a8ac",
-      "title": "HD OSD settings GPS (WTF/MSP-OSD)",
+      "hash": "2611caf18e1b7acae05332c2d402c0ab383ce19a6b1d9f91a725db6399a95dc3",
+      "title": "GVAPNEA - HD OSD GPS (WTF/MSP-OSD/CRSF)",
       "firmware_version": [
         "4.4"
       ],
@@ -165,8 +170,8 @@
     },
     {
       "fullPath": "presets/4.4/osd/OSD - standard non GPS Quad.txt",
-      "hash": "e9b529a44461fc05d44b83d50a1940ab4d68cea2f47995db4292d6757de388a0",
-      "title": "HD OSD settings (WTF/MSP-OSD)",
+      "hash": "256dbed93f2f8bab50096e56271c94fb0ea43e79eca25c7a0e2a0f95184537c2",
+      "title": "GVAPNEA - HD OSD (WTF/MSP-OSD/CRSF)",
       "firmware_version": [
         "4.4"
       ],
@@ -175,6 +180,40 @@
       "keywords": [
         "defaults",
         "osd"
+      ],
+      "author": "gvapnea",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/other/Basic post build settings.txt",
+      "hash": "bc5840e4b4c1c7bcf3af9a02e161969aefeee737e6c821e370b6b76f047c64e6",
+      "title": "GVAPNEA - Basic post build settings (CRSF/VISTA/Tango 2)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "RATES",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "defaults",
+        "master",
+        "build"
+      ],
+      "author": "gvapnea",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/rates/GVAPNEA - Cinematic rates.txt",
+      "hash": "24fdc0866310f6f5449e0e87499410962010148dfd6a70145b6ea5a89b5ead48",
+      "title": "GVAPNEA - Cinematic rates",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "RATES",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "defaults",
+        "rates",
+        "cinametic"
       ],
       "author": "gvapnea",
       "priority": 0

@@ -1,15 +1,15 @@
-#$ TITLE: HD OSD settings (WTF/MSP-OSD)
+#$ TITLE: GVAPNEA - HD OSD (WTF/MSP-OSD/CRSF)
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OSD
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: defaults, osd
 #$ AUTHOR: gvapnea
-#$ DESCRIPTION: HD OSD settings for Quad with VISTA/WTF-MSP-OSD
+#$ DESCRIPTION: HD OSD settings for Quad with VISTA/WTF-MSP-OSD/CRSF
 #$ PRIORITY: 0
 
 
 
-# HD OSD settings for Quad with VISTA/WTF-MSP-OSD
+# HD OSD settings for Quad with VISTA/WTF-MSP-OSD/CRSF
 
 set osd_warn_bitmask = 51197
 set osd_tim2 = 1
