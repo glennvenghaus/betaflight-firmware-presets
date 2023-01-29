@@ -1,0 +1,31 @@
+# HD OSD settings for Quad with VISTA/WTF-MSP-OSD
+
+set osd_warn_bitmask = 51197
+set osd_tim2 = 1
+set osd_vbat_pos = 394
+set osd_rssi_pos = 390
+set osd_link_quality_pos = 3686
+set osd_rssi_dbm_pos = 3718
+set osd_rsnr_pos = 3750
+set osd_tim_2_pos = 2685
+set osd_current_pos = 1479
+set osd_mah_drawn_pos = 3712
+set osd_craft_name_pos = 2071
+set osd_debug_pos = 32896
+set osd_power_pos = 355
+set osd_warnings_pos = 2329
+set osd_avg_cell_voltage_pos = 2714
+set osd_battery_usage_pos = 2745
+set osd_disarmed_pos = 2363
+set osd_pid_profile_name_pos = 2107
+set osd_stat_bitmask = 413500
+set osd_displayport_device = MSP
+set osd_menu_background = GRAY
+set osd_canvas_width = 60
+set osd_canvas_height = 22
+set vcd_video_system = HD
+
+# rem : osd alarms set for crossfire 50 Hz locked
+set osd_link_quality_alarm = 70
+set osd_rssi_dbm_alarm = -100
+set osd_alt_alarm = 120
