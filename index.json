@@ -188,6 +188,22 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.4/osd/OSD.txt",
+      "hash": "7ba8067b77bd09f772180dfb45a9cca71048ac37d315daf7a41658f67749c70a",
+      "title": "fpvapnea - HD OSD GPS (wtf/msp-osd/crsf)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "defaults",
+        "osd"
+      ],
+      "author": "gvapnea",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.4/other/BUILD - Basic post build settings.txt",
       "hash": "694591c7883e310f44ae410b0265e996e6dd939272f36cfb62e114c77ff156d5",
       "title": "fpvapnea - Basic post build settings (CRSF/VISTA/Tango 2)",
