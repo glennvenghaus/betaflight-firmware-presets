@@ -156,41 +156,9 @@
   },
   "presets": [
     {
-      "fullPath": "presets/4.4/osd/OSD - GPS enabled Quad.txt",
-      "hash": "9ecac81dcf3ed5aebb6748ba8cfe899e6088422c25e192991a0b766a611e0864",
-      "title": "fpvapnea - HD OSD GPS (wtf/msp-osd/crsf)",
-      "firmware_version": [
-        "4.4"
-      ],
-      "category": "OSD",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "defaults",
-        "osd"
-      ],
-      "author": "gvapnea",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.4/osd/OSD - standard non GPS Quad.txt",
-      "hash": "8450f63c835f4c155899e74f15c5c765079eed61e9114951b68604c481ab2f61",
-      "title": "fpvapnea - HD OSD ((wtf/msp-osd/crsf)",
-      "firmware_version": [
-        "4.4"
-      ],
-      "category": "OSD",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "defaults",
-        "osd"
-      ],
-      "author": "gvapnea",
-      "priority": 0
-    },
-    {
       "fullPath": "presets/4.4/osd/OSD.txt",
-      "hash": "7ba8067b77bd09f772180dfb45a9cca71048ac37d315daf7a41658f67749c70a",
-      "title": "fpvapnea - HD OSD GPS (wtf/msp-osd/crsf)",
+      "hash": "3cc038f927e92e99659573c9a5e1f7ed06f92ca7cc66be25df091907a773a8b3",
+      "title": "fpvapnea - HD OSD (wtf/msp-osd)",
       "firmware_version": [
         "4.4"
       ],
