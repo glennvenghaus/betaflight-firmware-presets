@@ -38,9 +38,6 @@ aux 4 28 2 900 1300 0 0
 aux 5 36 5 1700 2100 0 0
 aux 6 47 2 1300 1700 0 0
 
-# rxfail
-rxfail 3 s 1500
-rxfail 6 s 2000
 
 #master
 set rc_smoothing_auto_factor = 90

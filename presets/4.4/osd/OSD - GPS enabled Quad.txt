@@ -1,4 +1,4 @@
-#$ TITLE: fpvapnea - HD OSD GPS (WTF/MSP-OSD/CRSF)
+#$ TITLE: fpvapnea - HD OSD GPS (wtf/msp-osd/crsf)
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OSD
 #$ STATUS: EXPERIMENTAL
@@ -7,25 +7,37 @@
 #$ DESCRIPTION: HD OSD settings for Quad with GPS/VISTA/WTF-MSP-OSD/CRSF
 #$ PRIORITY: 0
 
-
 # HD OSD settings for Quad with GPS/VISTA/WTF-MSP-OSD/CRSF
 
+feature OSD
+
+#main
+set osd_stat_bitmask = 413500
 set osd_warn_bitmask = 188415
+set osd_displayport_device = MSP
+set osd_menu_background = GRAY
+set vcd_video_system = HD
+set osd_canvas_width = 60
+set osd_canvas_height = 22
+set osd_craft_name_pos = 2073
+set osd_warnings_pos = 2330
+set osd_disarmed_pos = 2362
+
+#timer
 set osd_tim2 = 1
-set osd_vbat_pos = 394
-set osd_rssi_pos = 390
+set osd_tim_2_pos = 2684
+
+#battery
+set osd_mah_drawn_pos = 2719
+set osd_avg_cell_voltage_pos = 2713
+set osd_battery_usage_pos = 2744
+
+# crsf
 set osd_link_quality_pos = 3686
 set osd_rssi_dbm_pos = 3718
 set osd_rsnr_pos = 3750
-set osd_tim_1_pos = 329
-set osd_tim_2_pos = 2684
-set osd_remaining_time_estimate_pos = 299
-set osd_flymode_pos = 12
-set osd_throttle_pos = 1702
-set osd_vtx_channel_pos = 372
-set osd_current_pos = 1479
-set osd_mah_drawn_pos = 2719
-set osd_craft_name_pos = 2073
+
+#gps
 set osd_gps_speed_pos = 2707
 set osd_gps_lon_pos = 34850
 set osd_gps_lat_pos = 34818
@@ -33,28 +45,8 @@ set osd_gps_sats_pos = 2674
 set osd_home_dir_pos = 2622
 set osd_home_dist_pos = 2739
 set osd_flight_dist_pos = 2733
-set osd_compass_bar_pos = 42
 set osd_altitude_pos = 19085
-set osd_pid_roll_pos = 87
-set osd_debug_pos = 32896
-set osd_power_pos = 355
-set osd_warnings_pos = 2330
-set osd_avg_cell_voltage_pos = 2713
-set osd_battery_usage_pos = 2744
-set osd_disarmed_pos = 2362
-set osd_nheading_pos = 121
-set osd_rtc_date_time_pos = 8
-set osd_flip_arrow_pos = 174
-set osd_core_temp_pos = 22
-set osd_pid_profile_name_pos = 59
-set osd_profile_name_pos = 334
-set osd_rcchannels_pos = 449
-set osd_sys_vtx_temp_pos = 221
-set osd_stat_bitmask = 413500
-set osd_displayport_device = MSP
-set osd_menu_background = GRAY
-set osd_canvas_width = 60
-set osd_canvas_height = 22
+
 
 # rem : osd alarms set for crossfire 50 Hz locked
 set osd_link_quality_alarm = 70

@@ -154,8 +154,8 @@
   "presets": [
     {
       "fullPath": "presets/4.4/osd/OSD - GPS enabled Quad.txt",
-      "hash": "4cc6fb6982f19f3819fe6ebc2b8eefb222b3548058bc2e76af20e1fd8e411d9d",
-      "title": "fpvapnea - HD OSD GPS (WTF/MSP-OSD/CRSF)",
+      "hash": "9ecac81dcf3ed5aebb6748ba8cfe899e6088422c25e192991a0b766a611e0864",
+      "title": "fpvapnea - HD OSD GPS (wtf/msp-osd/crsf)",
       "firmware_version": [
         "4.4"
       ],
@@ -170,8 +170,8 @@
     },
     {
       "fullPath": "presets/4.4/osd/OSD - standard non GPS Quad.txt",
-      "hash": "0a3527828c6bb8356a8f9d77637c1f47e0c767cec7e683d4e02f8e474613628d",
-      "title": "fpvapnea - HD OSD (WTF/MSP-OSD/CRSF)",
+      "hash": "8450f63c835f4c155899e74f15c5c765079eed61e9114951b68604c481ab2f61",
+      "title": "fpvapnea - HD OSD ((wtf/msp-osd/crsf)",
       "firmware_version": [
         "4.4"
       ],
@@ -185,8 +185,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/other/MASTER - Basic post build settings.txt",
-      "hash": "8377ac19d68f6f3abf400a8c4a208d123c4f5b2517e252321cbcb64e0e11fc1f",
+      "fullPath": "presets/4.4/other/BUILD - Basic post build settings.txt",
+      "hash": "9fdbdf09a83a453f2e13e9093c17499ba7675841ced5877742a5d537e1d6975f",
       "title": "fpvapnea - Basic post build settings (CRSF/VISTA/Tango 2)",
       "firmware_version": [
         "4.4"

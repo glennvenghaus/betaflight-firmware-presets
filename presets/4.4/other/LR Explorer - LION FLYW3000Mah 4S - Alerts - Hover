@@ -1,0 +1,25 @@
+#$ TITLE: fpvapnea - LR Explorer - Bat Lion 3000Mah (alert/gps)
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: RATES
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: defaults, master, build, bat, gps
+#$ AUTHOR: gvapnea
+#$ DESCRIPTION: LR Explorer - Bat Lion 3000Mah 4S set alerts + gps rescue hover point
+#$ PRIORITY: 0
+
+# failsafe
+rxfail 3 s 1650
+
+# gps
+set gps_rescue_throttle_min = 1450
+set gps_rescue_throttle_hover = 1650
+set gps_rescue_throttle_max = 1850
+
+# voltage
+set vbat_max_cell_voltage = 420
+set vbat_warning_cell_voltage = 310
+set vbat_min_cell_voltage = 290
+
+# capacity
+set bat_capacity = 3000
+set osd_cap_alarm = 2250
