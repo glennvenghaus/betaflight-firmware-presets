@@ -151,7 +151,8 @@
       "gps",
       "master",
       "osd",
-      "rates"
+      "rates",
+      "rth"
     ]
   },
   "presets": [
@@ -260,6 +261,26 @@
         "build",
         "bat",
         "gps"
+      ],
+      "author": "gvapnea",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/other/Quad - Bat - Alerts - Hover.txt",
+      "hash": "2564d038c8e7972887700318ef3628e2886dcda8a544fabc023932ace5931731",
+      "title": "fpvapnea - Quad/Batt set alerts and RTH hover point",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "defaults",
+        "master",
+        "build",
+        "bat",
+        "gps",
+        "rth"
       ],
       "author": "gvapnea",
       "priority": 0
