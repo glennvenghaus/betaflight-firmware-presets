@@ -132,10 +132,52 @@
     }
   },
   "uniqueValues": {
-    "firmware_version": [],
-    "category": [],
-    "author": [],
-    "keywords": []
+    "firmware_version": [
+      "4.4"
+    ],
+    "category": [
+      "OSD"
+    ],
+    "author": [
+      "gvapnea"
+    ],
+    "keywords": [
+      "defaults",
+      "osd"
+    ]
   },
-  "presets": []
+  "presets": [
+    {
+      "fullPath": "presets/4.4/osd/OSD - GPS enabled Quad.txt",
+      "hash": "568e4ab40e7242fc4290fdc4e6aa82ae2d622d1d38377f34e0a84ed4a7c9a8ac",
+      "title": "HD OSD settings GPS (WTF/MSP-OSD)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "defaults",
+        "osd"
+      ],
+      "author": "gvapnea",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/osd/OSD - standard non GPS Quad.txt",
+      "hash": "e9b529a44461fc05d44b83d50a1940ab4d68cea2f47995db4292d6757de388a0",
+      "title": "HD OSD settings (WTF/MSP-OSD)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "defaults",
+        "osd"
+      ],
+      "author": "gvapnea",
+      "priority": 0
+    }
+  ]
 }

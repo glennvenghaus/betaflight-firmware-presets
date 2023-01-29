@@ -1,3 +1,14 @@
+#$ TITLE: HD OSD settings (WTF/MSP-OSD)
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OSD
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: defaults, osd
+#$ AUTHOR: gvapnea
+#$ DESCRIPTION: HD OSD settings for Quad with VISTA/WTF-MSP-OSD
+#$ PRIORITY: 0
+
+
+
 # HD OSD settings for Quad with VISTA/WTF-MSP-OSD
 
 set osd_warn_bitmask = 51197

@@ -1,3 +1,13 @@
+#$ TITLE: HD OSD settings GPS (WTF/MSP-OSD)
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OSD
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: defaults, osd
+#$ AUTHOR: gvapnea
+#$ DESCRIPTION: HD OSD settings for Quad with GPS/VISTA/WTF-MSP-OSD
+#$ PRIORITY: 0
+
+
 # HD OSD settings for Quad with GPS/VISTA/WTF-MSP-OSD
 
 set osd_warn_bitmask = 188415
