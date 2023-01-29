@@ -144,7 +144,7 @@
     ],
     "keywords": [
       "build",
-      "cinametic",
+      "cinematic",
       "defaults",
       "master",
       "osd",
@@ -154,8 +154,8 @@
   "presets": [
     {
       "fullPath": "presets/4.4/osd/OSD - GPS enabled Quad.txt",
-      "hash": "2611caf18e1b7acae05332c2d402c0ab383ce19a6b1d9f91a725db6399a95dc3",
-      "title": "GVAPNEA - HD OSD GPS (WTF/MSP-OSD/CRSF)",
+      "hash": "4cc6fb6982f19f3819fe6ebc2b8eefb222b3548058bc2e76af20e1fd8e411d9d",
+      "title": "fpvapnea - HD OSD GPS (WTF/MSP-OSD/CRSF)",
       "firmware_version": [
         "4.4"
       ],
@@ -170,8 +170,8 @@
     },
     {
       "fullPath": "presets/4.4/osd/OSD - standard non GPS Quad.txt",
-      "hash": "256dbed93f2f8bab50096e56271c94fb0ea43e79eca25c7a0e2a0f95184537c2",
-      "title": "GVAPNEA - HD OSD (WTF/MSP-OSD/CRSF)",
+      "hash": "0a3527828c6bb8356a8f9d77637c1f47e0c767cec7e683d4e02f8e474613628d",
+      "title": "fpvapnea - HD OSD (WTF/MSP-OSD/CRSF)",
       "firmware_version": [
         "4.4"
       ],
@@ -185,9 +185,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/other/Basic post build settings.txt",
-      "hash": "bc5840e4b4c1c7bcf3af9a02e161969aefeee737e6c821e370b6b76f047c64e6",
-      "title": "GVAPNEA - Basic post build settings (CRSF/VISTA/Tango 2)",
+      "fullPath": "presets/4.4/other/MASTER - Basic post build settings.txt",
+      "hash": "8377ac19d68f6f3abf400a8c4a208d123c4f5b2517e252321cbcb64e0e11fc1f",
+      "title": "fpvapnea - Basic post build settings (CRSF/VISTA/Tango 2)",
       "firmware_version": [
         "4.4"
       ],
@@ -202,9 +202,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/rates/GVAPNEA - Cinematic rates.txt",
-      "hash": "24fdc0866310f6f5449e0e87499410962010148dfd6a70145b6ea5a89b5ead48",
-      "title": "GVAPNEA - Cinematic rates",
+      "fullPath": "presets/4.4/rates/RATES - Cinematic.txt",
+      "hash": "d9f87fd078abc192e092de38ec00ae3d1858997c21ef54428762b4b205f173ca",
+      "title": "fpvapnea -  Cinematic rates",
       "firmware_version": [
         "4.4"
       ],
@@ -213,7 +213,7 @@
       "keywords": [
         "defaults",
         "rates",
-        "cinametic"
+        "cinematic"
       ],
       "author": "gvapnea",
       "priority": 0

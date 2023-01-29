@@ -1,9 +1,9 @@
 
-#$ TITLE: GVAPNEA - Cinematic rates
+#$ TITLE: fpvapnea -  Cinematic rates
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: RATES
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: defaults, rates, cinametic
+#$ KEYWORDS: defaults, rates, cinematic
 #$ AUTHOR: gvapnea
 #$ DESCRIPTION: Cinematic smooth rate with lots of expo. Adjust throttle mid
 #$ PRIORITY: 0
