@@ -1,4 +1,4 @@
-#$ TITLE: fpvapnea - DigiTwig- Bat GNB1100HV 43 (alert/gps)
+#$ TITLE: fpvapnea - DigiTwig - GNB1100HV 3S (alert/gps)
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL

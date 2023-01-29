@@ -206,8 +206,8 @@
     },
     {
       "fullPath": "presets/4.4/other/Cinebot30 - GNB1500HV - Alerts - Hover.txt",
-      "hash": "a8d599a4353fb989f689422f1892cb197ce796eb162c3ee91494d5a456087c19",
-      "title": "fpvapnea - Cinebot30- Bat GNB1500HV 4S (alert/gps)",
+      "hash": "83ba98f773f1414ccfe57a06056aa43a65e6922601600533dce09be9f4411484",
+      "title": "fpvapnea - Cinebot30 - GNB1500HV 4S (alert/gps)",
       "firmware_version": [
         "4.4"
       ],
@@ -225,8 +225,8 @@
     },
     {
       "fullPath": "presets/4.4/other/DigiTwig - GNB1100HV 3S - Alerts - Hover.txt",
-      "hash": "288c1d40480912465ac1997866805617c194ce930d81b870dc244e453f5796ff",
-      "title": "fpvapnea - DigiTwig- Bat GNB1100HV 43 (alert/gps)",
+      "hash": "a1724b2d8f2648e45c9592b2db375eef1cdf7b16f1b54aa311e426e6e61487c4",
+      "title": "fpvapnea - DigiTwig - GNB1100HV 3S (alert/gps)",
       "firmware_version": [
         "4.4"
       ],
@@ -244,8 +244,8 @@
     },
     {
       "fullPath": "presets/4.4/other/LR Explorer - FLYW900HV - Alerts - Hover.txt",
-      "hash": "226428860e6338586747edf9a9c39106ade168584800489176a9c9bbd1038f9d",
-      "title": "fpvapnea - LR Explorer - Bat Expl 900Mah (alert/gps)",
+      "hash": "68c8ecdef306094eccc922ba8b6dbefc7bd8b02946af7108f6ab09f555dd2ca5",
+      "title": "fpvapnea - LR Explorer - FLYWOO900HV (alert/gps)",
       "firmware_version": [
         "4.4"
       ],
@@ -263,8 +263,8 @@
     },
     {
       "fullPath": "presets/4.4/other/LR Explorer - LION FLYW3000Mah 4S - Alerts - Hover.txt",
-      "hash": "39e59c75a656201519e03a91ad5dbb579bd0395f428dc32141671961d37bf819",
-      "title": "fpvapnea - LR Explorer - Bat Lion 3000Mah (alert/gps)",
+      "hash": "eb6834252f30009c52ce512a1188deb52b58e397fb2905da4285a47ca0831018",
+      "title": "fpvapnea - LR Explorer - FLYWOO3000LION 4S (alert/gps)",
       "firmware_version": [
         "4.4"
       ],

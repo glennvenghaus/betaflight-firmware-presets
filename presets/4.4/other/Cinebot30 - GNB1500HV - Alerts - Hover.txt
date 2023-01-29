@@ -1,4 +1,4 @@
-#$ TITLE: fpvapnea - Cinebot30- Bat GNB1500HV 4S (alert/gps)
+#$ TITLE: fpvapnea - Cinebot30 - GNB1500HV 4S (alert/gps)
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL

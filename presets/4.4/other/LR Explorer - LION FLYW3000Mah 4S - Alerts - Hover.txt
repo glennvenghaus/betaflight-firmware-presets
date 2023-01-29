@@ -1,4 +1,4 @@
-#$ TITLE: fpvapnea - LR Explorer - Bat Lion 3000Mah (alert/gps)
+#$ TITLE: fpvapnea - LR Explorer - FLYWOO3000LION 4S (alert/gps)
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL
