@@ -1,20 +1,44 @@
-#$ TITLE: fpvapnea - Quad/Batt set alerts and RTH hover point
+#$ TITLE: fpvapnea - Quad/Batt set alerts/th-mid/RTH-hover
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: defaults, master, build, bat, gps, rth
 #$ AUTHOR: gvapnea
-#$ DESCRIPTION: Quad / Bat specific set alerts and gps rescue hover point
+#$ DESCRIPTION: Quad / Bat specific set alerts, throttle mid and gps rescue hover point
 #$ PRIORITY: 0
 
-#$ OPTION BEGIN (UNCHECKED): Cinebot30 - GNB1500HV 4S
-    # -- ADDED: Cinebot30 - GNB1500HV 4S --
+#$ OPTION BEGIN (UNCHECKED): Cinebot30/GP9 - GNB1300HV 4S
+    # -- ADDED: Cinebot30/GP9 - GNB1300HV 4S --
+
+	# failsafe
+	rxfail 3 s 1550
+
+	# gps
+	set gps_rescue_throttle_min = 1350
+	set gps_rescue_throttle_hover = 1550
+	set gps_rescue_throttle_max = 1750
+
+	# voltage
+	set vbat_max_cell_voltage = 440
+	set vbat_warning_cell_voltage = 345
+	set vbat_min_cell_voltage = 335
+
+	# capacity
+	set bat_capacity = 1300
+	set osd_cap_alarm = 1000
+
+	# rate
+	set thr_mid = 55
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Cinebot30/GP9 - GNB1500HV 4S
+    # -- ADDED: Cinebot30/GP9 - GNB1500HV 4S --
 
 	# failsafe
 	rxfail 3 s 1575
 
 	# gps
-	set gps_rescue_throttle_min = 1450
+	set gps_rescue_throttle_min = 1350
 	set gps_rescue_throttle_hover = 1565
 	set gps_rescue_throttle_max = 1750
 
@@ -25,18 +49,68 @@
 
 	# capacity
 	set bat_capacity = 1500
-	set osd_cap_alarm = 1300
+	set osd_cap_alarm = 1250
+
+	# rate
+	set thr_mid = 56
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): Cinebot30/GP9 - GNB1350 4S
+    # -- ADDED: Cinebot30/GP9 - GNB1350 4S --
 
-#$ OPTION BEGIN (UNCHECKED): DigiTwig - GNB1100HV 3S
-    # -- ADDED: DigiTwig - GNB1100HV 3S --
+	# failsafe
+	rxfail 3 s 1550
+
+	# gps
+	set gps_rescue_throttle_min = 1350
+	set gps_rescue_throttle_hover = 1555
+	set gps_rescue_throttle_max = 1750
+
+	# voltage
+	set vbat_max_cell_voltage = 430
+	set vbat_warning_cell_voltage = 345
+	set vbat_min_cell_voltage = 335
+
+	# capacity
+	set bat_capacity = 1350
+	set osd_cap_alarm = 1000
+
+	# rate
+	set thr_mid = 56
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Cinebot30/no cam - FLYWOO900HV 4S
+    # -- ADDED: Cinebot30/no cam - FLYWOO900HV 4S --
+
+	# failsafe
+	rxfail 3 s 1450
+
+	# gps
+	set gps_rescue_throttle_min = 1250
+	set gps_rescue_throttle_hover = 1440
+	set gps_rescue_throttle_max = 1650
+
+	# voltage
+	set vbat_max_cell_voltage = 440
+	set vbat_warning_cell_voltage = 345
+	set vbat_min_cell_voltage = 335
+
+	# capacity
+	set bat_capacity = 900
+	set osd_cap_alarm = 700
+
+	# rate
+	set thr_mid = 45
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DigiTwig/ThumbPro - GNB1100HV 3S
+    # -- ADDED: DigiTwig/ThumbPro - GNB1100HV 3S --
 
     # failsafe
 	rxfail 3 s 1550
 
 	# gps
-	set gps_rescue_throttle_min = 1450
+	set gps_rescue_throttle_min = 1350
 	set gps_rescue_throttle_hover = 1550
 	set gps_rescue_throttle_max = 1750
 
@@ -48,17 +122,20 @@
 	# capacity
 	set bat_capacity = 1100
 	set osd_cap_alarm = 900
+
+	# rate
+	set thr_mid = 55
 #$ OPTION END
 
 
-#$ OPTION BEGIN (UNCHECKED): LR Explorer - FLYWOO900HV 4S
-    # -- ADDED: LR Explorer - FLYWOO900HV 4S --
+#$ OPTION BEGIN (UNCHECKED): LR Explorer/GP9 - FLYWOO900HV 4S
+    # -- ADDED: LR Explorer/GP9 - FLYWOO900HV 4S --
 
 	# failsafe
 	rxfail 3 s 1500
 
 	# gps
-	set gps_rescue_throttle_min = 1400
+	set gps_rescue_throttle_min = 1300
 	set gps_rescue_throttle_hover = 1500
 	set gps_rescue_throttle_max = 1700
 
@@ -70,11 +147,13 @@
 	# capacity
 	set bat_capacity = 900
 	set osd_cap_alarm = 700
+
+	# rate
+	set thr_mid = 51
 #$ OPTION END
 
-
-#$ OPTION BEGIN (UNCHECKED): LR Explorer - FLYWOO3000LION 4S
-    # -- ADDED: LR Explorer - FLYWOO3000LION 4S --
+#$ OPTION BEGIN (UNCHECKED): LR Explorer/GP9 - FLYWOO3000LION 4S
+    # -- ADDED: LR Explorer/GP9 - FLYWOO3000LION 4S --
 
 	# failsafe
 	rxfail 3 s 1650
@@ -82,7 +161,7 @@
 	# gps
 	set gps_rescue_throttle_min = 1450
 	set gps_rescue_throttle_hover = 1650
-	set gps_rescue_throttle_max = 1850
+	set gps_rescue_throttle_max = 1900
 
 	# voltage
 	set vbat_max_cell_voltage = 420
@@ -92,4 +171,105 @@
 	# capacity
 	set bat_capacity = 3000
 	set osd_cap_alarm = 2250
+
+	# rate
+	set thr_mid = 64
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): LR Explorer/no cam - FLYWOO900HV 4S
+    # -- ADDED: LR Explorer/no cam - FLYWOO900HV 4S --
+
+	# failsafe
+	rxfail 3 s 1425
+
+	# gps
+	set gps_rescue_throttle_min = 1200
+	set gps_rescue_throttle_hover = 1415
+	set gps_rescue_throttle_max = 1600
+
+	# voltage
+	set vbat_max_cell_voltage = 440
+	set vbat_warning_cell_voltage = 345
+	set vbat_min_cell_voltage = 335
+
+	# capacity
+	set bat_capacity = 900
+	set osd_cap_alarm = 700
+
+	# rate
+	set thr_mid = 42
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): LR Explorer/no cam - GNB1300HV 4S
+    # -- ADDED: LR Explorer/no cam - GNB1300HV 4S --
+
+	# failsafe
+	rxfail 3 s 1500
+
+	# gps
+	set gps_rescue_throttle_min = 1300
+	set gps_rescue_throttle_hover = 1505
+	set gps_rescue_throttle_max = 1700
+
+	# voltage
+	set vbat_max_cell_voltage = 440
+	set vbat_warning_cell_voltage = 345
+	set vbat_min_cell_voltage = 335
+
+	# capacity
+	set bat_capacity = 1300
+	set osd_cap_alarm = 1000
+
+	# rate
+	set thr_mid = 51
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): LR Explorer/no cam - GNB1300HV 4S
+    # -- ADDED: LR Explorer/no cam - GNB1300HV 4S --
+
+	# failsafe
+	rxfail 3 s 1550
+
+	# gps
+	set gps_rescue_throttle_min = 1300
+	set gps_rescue_throttle_hover = 1533
+	set gps_rescue_throttle_max = 1700
+
+	# voltage
+	set vbat_max_cell_voltage = 440
+	set vbat_warning_cell_voltage = 345
+	set vbat_min_cell_voltage = 335
+
+	# capacity
+	set bat_capacity = 1500
+	set osd_cap_alarm = 1200
+
+	# rate
+	set thr_mid = 53
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): LR Explorer/no cam - GNB1350 4S
+    # -- ADDED: LR Explorer/no cam - GNB1350 4S --
+
+	# failsafe
+	rxfail 3 s 1525
+
+	# gps
+	set gps_rescue_throttle_min = 1300
+	set gps_rescue_throttle_hover = 1522
+	set gps_rescue_throttle_max = 1700
+
+	# voltage
+	set vbat_max_cell_voltage = 430
+	set vbat_warning_cell_voltage = 345
+	set vbat_min_cell_voltage = 335
+
+	# capacity
+	set bat_capacity = 1500
+	set osd_cap_alarm = 1200
+
+	# rate
+	set thr_mid = 52
 #$ OPTION END
