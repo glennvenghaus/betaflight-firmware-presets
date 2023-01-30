@@ -152,13 +152,14 @@
       "master",
       "osd",
       "rates",
+      "rescue",
       "rth"
     ]
   },
   "presets": [
     {
       "fullPath": "presets/4.4/osd/OSD.txt",
-      "hash": "7a577e5c1caa2f89dbca5587abfe0229614e6faf7d65732ddd1c7cbd5b254cb6",
+      "hash": "23721a12c9a71d151bda015f4ee58167086a3ceff57323b4a695c311b24d1e4c",
       "title": "fpvapnea - HD OSD (wtf/msp-osd)",
       "firmware_version": [
         "4.4"
@@ -190,9 +191,29 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/other/Quad - Bat - Alerts - Hover.txt",
-      "hash": "327f2bc6006b107f21e319f71c4991f508bc81143c60cb5b8c9c14affe36be8d",
-      "title": "fpvapnea - Quad/Batt set alerts/th-mid/RTH-hover",
+      "fullPath": "presets/4.4/other/GPS - gps_rescue base values.txt",
+      "hash": "543952008cb60657128e0321ecdae82954a2d9be290737675fdcf9b468a38017",
+      "title": "fpvapnea - GPS Rescue base values",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "defaults",
+        "master",
+        "build",
+        "gps",
+        "rth",
+        "rescue"
+      ],
+      "author": "gvapnea",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/other/Quad - Bat specific settings.txt",
+      "hash": "1779048b9c010603aedca134fc4ad3d555dc38a99142d4c46837b34912137317",
+      "title": "fpvapnea - Quad - Battery specific settings (alerts/thr/rth)",
       "firmware_version": [
         "4.4"
       ],

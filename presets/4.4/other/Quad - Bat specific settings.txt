@@ -1,4 +1,4 @@
-#$ TITLE: fpvapnea - Quad/Batt set alerts/th-mid/RTH-hover
+#$ TITLE: fpvapnea - Quad - Battery specific settings (alerts/thr/rth)
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL

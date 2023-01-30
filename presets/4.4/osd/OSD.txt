@@ -57,6 +57,7 @@ set osd_alt_alarm = 120
 	set osd_altitude_pos = 19085
 	set osd_current_pos = 2724
 	set osd_throttle_pos = 2694
+	set osd_gps_sats_show_hdop = ON
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Crossfire 50Hz or Dyn alarms
