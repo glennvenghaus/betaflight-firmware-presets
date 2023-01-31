@@ -11,7 +11,6 @@
 # altitudes
 set gps_rescue_return_alt = 30
 set gps_rescue_initial_climb = 10
-set gps_rescue_alt_mode = FIXED_ALT
 set gps_rescue_landing_alt = 5
 
 # distances
@@ -26,11 +25,36 @@ set gps_rescue_ground_speed = 700
 #angle
 set gps_rescue_pitch_angle_max = 50
 
-#sanity
-set gps_rescue_sanity_checks = RESCUE_SANITY_OFF
-
 # sats
 set gps_rescue_min_sats = 6
 
-# arming
-set gps_rescue_allow_arming_without_fix = ON
+
+#$ OPTION BEGIN (UNCHECKED): GPS_RESCUE - FIXED_ALT mode
+    # -- ADDED: GPS_RESCUE - FIXED_ALT mode --
+	set gps_rescue_alt_mode = FIXED_ALT
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): GPS_RESCUE - MAX_ALT mode
+    # -- ADDED: GPS_RESCUE - MAX_ALT mode --
+	set gps_rescue_alt_mode = MAX_ALT
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): GPS_RESCUE - RESCUE_SANITY_OFF mode
+    # -- ADDED: GPS_RESCUE - RESCUE_SANITY_OFF mode --
+	set gps_rescue_sanity_checks = RESCUE_SANITY_OFF
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): GPS_RESCUE - RESCUE_SANITY_FS_ONLY mode
+    # -- ADDED: GPS_RESCUE - RESCUE_SANITY_FS_ONLY mode --
+	set gps_rescue_sanity_checks = RESCUE_SANITY_FS_ONLY
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): GPS_RESCUE - Allow Arming without fix
+    # -- ADDED: GPS_RESCUE - Allow Arming without fix --
+	set gps_rescue_allow_arming_without_fix = ON
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): GPS_RESCUE - NOT Allow Arming without fix
+    # -- ADDED: GPS_RESCUE - Not Allow Arming without fix --
+	set gps_rescue_allow_arming_without_fix = OFF
+#$ OPTION END
