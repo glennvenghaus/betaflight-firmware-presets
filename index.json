@@ -159,7 +159,7 @@
   "presets": [
     {
       "fullPath": "presets/4.4/osd/OSD.txt",
-      "hash": "23721a12c9a71d151bda015f4ee58167086a3ceff57323b4a695c311b24d1e4c",
+      "hash": "5159bd054e25ca77786befdfff5e8da25ee5b10b08107435914fb8fc458f62ce",
       "title": "fpvapnea - HD OSD (wtf/msp-osd)",
       "firmware_version": [
         "4.4"
