@@ -38,9 +38,9 @@
 	rxfail 3 s 1575
 
 	# gps
-	set gps_rescue_throttle_min = 1350
+	set gps_rescue_throttle_min = 1400
 	set gps_rescue_throttle_hover = 1561
-	set gps_rescue_throttle_max = 1900
+	set gps_rescue_throttle_max = 1750
 
 	# voltage
 	set vbat_max_cell_voltage = 440
@@ -62,9 +62,9 @@
 	rxfail 3 s 1550
 
 	# gps
-	set gps_rescue_throttle_min = 1350
+	set gps_rescue_throttle_min = 1400
 	set gps_rescue_throttle_hover = 1556
-	set gps_rescue_throttle_max = 1900
+	set gps_rescue_throttle_max = 1750
 
 	# voltage
 	set vbat_max_cell_voltage = 430
@@ -86,9 +86,9 @@
 	rxfail 3 s 1450
 
 	# gps
-	set gps_rescue_throttle_min = 1250
+	set gps_rescue_throttle_min = 1300
 	set gps_rescue_throttle_hover = 1443
-	set gps_rescue_throttle_max = 1900
+	set gps_rescue_throttle_max = 1650
 
 	# voltage
 	set vbat_max_cell_voltage = 440
@@ -110,9 +110,9 @@
 	rxfail 3 s 1550
 
 	# gps
-	set gps_rescue_throttle_min = 1350
+	set gps_rescue_throttle_min = 1400
 	set gps_rescue_throttle_hover = 1546
-	set gps_rescue_throttle_max = 1900
+	set gps_rescue_throttle_max = 1750
 
 	# voltage
 	set vbat_max_cell_voltage = 440
@@ -135,9 +135,9 @@
 	rxfail 3 s 1525
 
 	# gps
-	set gps_rescue_throttle_min = 1300
+	set gps_rescue_throttle_min =1350
 	set gps_rescue_throttle_hover = 1510
-	set gps_rescue_throttle_max = 1900
+	set gps_rescue_throttle_max = 1700
 
 	# voltage
 	set vbat_max_cell_voltage = 440
@@ -159,9 +159,9 @@
 	rxfail 3 s 1650
 
 	# gps
-	set gps_rescue_throttle_min = 1450
+	set gps_rescue_throttle_min = 1500
 	set gps_rescue_throttle_hover = 1643
-	set gps_rescue_throttle_max = 1900
+	set gps_rescue_throttle_max = 1850
 
 	# voltage
 	set vbat_max_cell_voltage = 420
@@ -183,9 +183,9 @@
 	rxfail 3 s 1425
 
 	# gps
-	set gps_rescue_throttle_min = 1200
+	set gps_rescue_throttle_min = 1250
 	set gps_rescue_throttle_hover = 1418
-	set gps_rescue_throttle_max = 1900
+	set gps_rescue_throttle_max = 1600
 
 	# voltage
 	set vbat_max_cell_voltage = 440
@@ -207,9 +207,9 @@
 	rxfail 3 s 1500
 
 	# gps
-	set gps_rescue_throttle_min = 1300
+	set gps_rescue_throttle_min = 1350
 	set gps_rescue_throttle_hover = 1505
-	set gps_rescue_throttle_max = 1900
+	set gps_rescue_throttle_max = 1700
 
 	# voltage
 	set vbat_max_cell_voltage = 440
@@ -232,9 +232,9 @@
 	rxfail 3 s 1525
 
 	# gps
-	set gps_rescue_throttle_min = 1300
+	set gps_rescue_throttle_min = 1400
 	set gps_rescue_throttle_hover = 1530
-	set gps_rescue_throttle_max = 1900
+	set gps_rescue_throttle_max = 1730
 
 	# voltage
 	set vbat_max_cell_voltage = 440
@@ -257,9 +257,9 @@
 	rxfail 3 s 1525
 
 	# gps
-	set gps_rescue_throttle_min = 1300
+	set gps_rescue_throttle_min = 1400
 	set gps_rescue_throttle_hover = 1520
-	set gps_rescue_throttle_max = 1900
+	set gps_rescue_throttle_max = 1700
 
 	# voltage
 	set vbat_max_cell_voltage = 430

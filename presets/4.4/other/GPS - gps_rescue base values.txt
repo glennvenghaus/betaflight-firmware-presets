@@ -20,7 +20,7 @@ set gps_rescue_min_start_dist = 20
 # rate/speed
 set gps_rescue_ascend_rate = 500
 set gps_rescue_descend_rate = 100
-set gps_rescue_ground_speed = 700
+set gps_rescue_ground_speed = 830
 
 #angle
 set gps_rescue_pitch_angle_max = 40

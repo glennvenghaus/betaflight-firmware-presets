@@ -192,7 +192,7 @@
     },
     {
       "fullPath": "presets/4.4/other/GPS - gps_rescue base values.txt",
-      "hash": "1c356d7059f20ba62a80ba14f43d9f6f3ca32ab1ce6e77162fa44f75f29f8ab8",
+      "hash": "9f8f810f6912a17f076871950a5ff1bc585aa9acd52137424047cdfbce0fb1ff",
       "title": "fpvapnea - GPS Rescue base values",
       "firmware_version": [
         "4.4"
@@ -212,7 +212,7 @@
     },
     {
       "fullPath": "presets/4.4/other/Quad - Bat specific settings.txt",
-      "hash": "5929fb360116550b38478427b2cad671c18474e9df5e3d88abae34cb65f40e44",
+      "hash": "07d9c908867201c250698a4e067e43e1ad4407de1b278be46af370d784009c7e",
       "title": "fpvapnea - Quad - Battery specific settings (alerts/thr/rth)",
       "firmware_version": [
         "4.4"
