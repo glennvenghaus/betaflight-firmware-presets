@@ -16,6 +16,7 @@ set vcd_video_system = HD
 set osd_canvas_width = 60
 set osd_canvas_height = 22
 set osd_craft_name_pos = 2073
+set osd_rate_profile_name_pos = 2107
 set osd_warnings_pos = 2330
 set osd_disarmed_pos = 2362
 

@@ -159,7 +159,7 @@
   "presets": [
     {
       "fullPath": "presets/4.4/osd/OSD.txt",
-      "hash": "5159bd054e25ca77786befdfff5e8da25ee5b10b08107435914fb8fc458f62ce",
+      "hash": "585cce42f8470c53005ccbca7c2ecff391bbeac6eba5f7be45d5481700e8610f",
       "title": "fpvapnea - HD OSD (wtf/msp-osd)",
       "firmware_version": [
         "4.4"
@@ -212,7 +212,7 @@
     },
     {
       "fullPath": "presets/4.4/other/Quad - Bat specific settings.txt",
-      "hash": "07d9c908867201c250698a4e067e43e1ad4407de1b278be46af370d784009c7e",
+      "hash": "3ae0c75a5752e5a173eba6b6f22f0197ec5eef61d65d6662c6007e6fc995fb62",
       "title": "fpvapnea - Quad - Battery specific settings (alerts/thr/rth)",
       "firmware_version": [
         "4.4"
@@ -232,8 +232,8 @@
     },
     {
       "fullPath": "presets/4.4/rates/RATES - Cinematic.txt",
-      "hash": "d9f87fd078abc192e092de38ec00ae3d1858997c21ef54428762b4b205f173ca",
-      "title": "fpvapnea -  Cinematic rates",
+      "hash": "cc0a2fbba4df0443bd38821acca70e8a696ba1f6472741dabda47745ce4051d2",
+      "title": "fpvapnea -  Smooth rates",
       "firmware_version": [
         "4.4"
       ],

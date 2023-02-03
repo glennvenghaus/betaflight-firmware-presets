@@ -4,7 +4,7 @@
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: defaults, master, build, bat, gps, rth
 #$ AUTHOR: gvapnea
-#$ DESCRIPTION: Quad / Bat specific set alerts, throttle mid and gps rescue hover point
+#$ DESCRIPTION: Quad / Bat specific set alerts, throttle mid (in rate 0 and 1) and gps rescue hover point
 #$ PRIORITY: 0
 
 #$ OPTION BEGIN (UNCHECKED): Cinebot30/GP9 - GNB1300HV 4S
@@ -28,7 +28,11 @@
 	set osd_cap_alarm = 1000
 
 	# rate
+	rateprofile 0
 	set thr_mid = 55
+	rateprofile 1
+	set thr_mid = 55
+
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Cinebot30/GP9 - GNB1500HV 4S
@@ -52,7 +56,11 @@
 	set osd_cap_alarm = 1250
 
 	# rate
+	rateprofile 0
 	set thr_mid = 56
+	rateprofile 1
+	set thr_mid = 56
+
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Cinebot30/GP9 - GNB1350 4S
@@ -76,7 +84,11 @@
 	set osd_cap_alarm = 1000
 
 	# rate
+	rateprofile 0
 	set thr_mid = 56
+	rateprofile 1
+	set thr_mid = 56
+
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Cinebot30/no cam - FLYWOO900HV 4S
@@ -100,7 +112,11 @@
 	set osd_cap_alarm = 700
 
 	# rate
+	rateprofile 0
 	set thr_mid = 45
+	rateprofile 1
+	set thr_mid = 45
+
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): DigiTwig/ThumbPro - GNB1100HV 3S
@@ -124,7 +140,11 @@
 	set osd_cap_alarm = 900
 
 	# rate
+	rateprofile 0
 	set thr_mid = 55
+	rateprofile 1
+	set thr_mid = 55
+
 #$ OPTION END
 
 
@@ -149,7 +169,11 @@
 	set osd_cap_alarm = 700
 
 	# rate
+	rateprofile 0
 	set thr_mid = 51
+	rateprofile 1
+	set thr_mid = 51
+
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): LR Explorer/GP9 - FLYWOO3000LION 4S
@@ -173,7 +197,11 @@
 	set osd_cap_alarm = 2250
 
 	# rate
+	rateprofile 0
 	set thr_mid = 64
+	rateprofile 1
+	set thr_mid = 64
+
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): LR Explorer/no cam - FLYWOO900HV 4S
@@ -197,7 +225,11 @@
 	set osd_cap_alarm = 700
 
 	# rate
+	rateprofile 0
 	set thr_mid = 42
+	rateprofile 1
+	et thr_mid = 42
+
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): LR Explorer/no cam - GNB1300HV 4S
@@ -221,7 +253,11 @@
 	set osd_cap_alarm = 1000
 
 	# rate
+	rateprofile 0
 	set thr_mid = 51
+	rateprofile 1
+	set thr_mid = 51
+
 #$ OPTION END
 
 
@@ -246,7 +282,11 @@
 	set osd_cap_alarm = 1200
 
 	# rate
+	rateprofile 0
 	set thr_mid = 53
+	rateprofile 1
+	set thr_mid = 53
+
 #$ OPTION END
 
 
@@ -271,5 +311,9 @@
 	set osd_cap_alarm = 1200
 
 	# rate
+	rateprofile 0
 	set thr_mid = 52
+	rateprofile 0
+	set thr_mid = 52
+
 #$ OPTION END
