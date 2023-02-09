@@ -61,6 +61,7 @@ set osd_alt_alarm = 120
 	set osd_throttle_pos = 2693
 	set osd_gps_sats_show_hdop = ON
 	set osd_pit_ang_pos = 2661
+	set osd_link_tx_power_pos = 2114
 
 #$ OPTION END
 

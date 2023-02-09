@@ -317,3 +317,60 @@
 	set thr_mid = 52
 
 #$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): DigiStealth - Runcam - GNB1100 3S - 6blade
+    # -- ADDED: DigiStealth - Runcam - GNB1100 3S - 6blades --
+
+	# failsafe
+	rxfail 3 s 1325
+
+	# gps
+	set gps_rescue_throttle_min = 1200
+	set gps_rescue_throttle_hover = 1320
+	set gps_rescue_throttle_max = 1500
+
+	# voltage
+	set vbat_max_cell_voltage = 430
+	set vbat_warning_cell_voltage = 345
+	set vbat_min_cell_voltage = 335
+
+	# capacity
+	set bat_capacity = 1100
+	set osd_cap_alarm = 900
+
+	# rate
+	rateprofile 0
+	set thr_mid = 33
+	rateprofile 0
+	set thr_mid = 33
+
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DigiStealth - Runcam - GNB1100 3S - 3blade
+    # -- ADDED: DigiStealth - Runcam - GNB1100 3S - 3blades --
+
+	# failsafe
+	rxfail 3 s 1525
+
+	# gps
+	set gps_rescue_throttle_min = 1300
+	set gps_rescue_throttle_hover = 1510
+	set gps_rescue_throttle_max = 1650
+
+	# voltage
+	set vbat_max_cell_voltage = 430
+	set vbat_warning_cell_voltage = 345
+	set vbat_min_cell_voltage = 335
+
+	# capacity
+	set bat_capacity = 1100
+	set osd_cap_alarm = 900
+
+	# rate
+	rateprofile 0
+	set thr_mid = 51
+	rateprofile 0
+	set thr_mid = 51
+
+#$ OPTION END

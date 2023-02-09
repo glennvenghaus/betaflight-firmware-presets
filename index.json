@@ -159,7 +159,7 @@
   "presets": [
     {
       "fullPath": "presets/4.4/osd/OSD.txt",
-      "hash": "074c0289262755e6a20c72536e2c8fc9fbe1b6e9e0a729180d7fb29572b1573e",
+      "hash": "4e0431e1c3c9458d85021b088a31b6e446a768d57b0d09d44a6534afe089952c",
       "title": "fpvapnea - HD OSD (wtf/msp-osd)",
       "firmware_version": [
         "4.4"
@@ -175,7 +175,7 @@
     },
     {
       "fullPath": "presets/4.4/other/BUILD - Basic post build settings.txt",
-      "hash": "8a5dd90ff136dbe677f1000b60961eb5561502ba45f9f2b064e107ed14af9bde",
+      "hash": "dcb2b868561353abc2e68ba1f1f9d88068f54e53d270ab390d0be72be7da6b8c",
       "title": "fpvapnea - Basic post build settings (CRSF/VISTA/Tango 2)",
       "firmware_version": [
         "4.4"
@@ -212,7 +212,7 @@
     },
     {
       "fullPath": "presets/4.4/other/Quad - Bat specific settings.txt",
-      "hash": "3ae0c75a5752e5a173eba6b6f22f0197ec5eef61d65d6662c6007e6fc995fb62",
+      "hash": "0e79c902595e7f0496d894da57077a1865249ae300b7410e38c0767a0d21650e",
       "title": "fpvapnea - Quad - Battery specific settings (alerts/thr/rth)",
       "firmware_version": [
         "4.4"
