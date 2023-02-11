@@ -175,7 +175,7 @@
     },
     {
       "fullPath": "presets/4.4/other/BUILD - Basic post build settings.txt",
-      "hash": "dcb2b868561353abc2e68ba1f1f9d88068f54e53d270ab390d0be72be7da6b8c",
+      "hash": "ff300f5e5994581f3f0f0b32a295a826008a5d58cae144141a89475d1ab31827",
       "title": "fpvapnea - Basic post build settings (CRSF/VISTA/Tango 2)",
       "firmware_version": [
         "4.4"
@@ -192,7 +192,7 @@
     },
     {
       "fullPath": "presets/4.4/other/GPS - gps_rescue base values.txt",
-      "hash": "9f8f810f6912a17f076871950a5ff1bc585aa9acd52137424047cdfbce0fb1ff",
+      "hash": "3bd879540b3f4d5c993835c69997a93d436bff2bbe06ebb2d70fda5f1c771c38",
       "title": "fpvapnea - GPS Rescue base values",
       "firmware_version": [
         "4.4"
@@ -212,7 +212,7 @@
     },
     {
       "fullPath": "presets/4.4/other/Quad - Bat specific settings.txt",
-      "hash": "0e79c902595e7f0496d894da57077a1865249ae300b7410e38c0767a0d21650e",
+      "hash": "94ff87851418d2b87bd5b308ddc4f60af8699bb7c1683f9b247c5189c43b0acd",
       "title": "fpvapnea - Quad - Battery specific settings (alerts/thr/rth)",
       "firmware_version": [
         "4.4"

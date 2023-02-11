@@ -313,7 +313,7 @@
 	# rate
 	rateprofile 0
 	set thr_mid = 52
-	rateprofile 0
+	rateprofile 1
 	set thr_mid = 52
 
 #$ OPTION END
@@ -342,7 +342,7 @@
 	# rate
 	rateprofile 0
 	set thr_mid = 33
-	rateprofile 0
+	rateprofile 1
 	set thr_mid = 33
 
 #$ OPTION END
@@ -370,7 +370,7 @@
 	# rate
 	rateprofile 0
 	set thr_mid = 51
-	rateprofile 0
+	rateprofile 1
 	set thr_mid = 51
 
 #$ OPTION END
