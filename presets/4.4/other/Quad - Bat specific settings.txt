@@ -384,7 +384,7 @@
 	# gps
 	set gps_rescue_throttle_min = 1500
 	set gps_rescue_throttle_hover = 1638
-	set gps_rescue_throttle_max = 11950
+	set gps_rescue_throttle_max = 1950
 
 	# voltage
 	set vbat_max_cell_voltage = 430
