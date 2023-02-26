@@ -184,7 +184,7 @@
 
 	# gps
 	set gps_rescue_throttle_min = 1500
-	set gps_rescue_throttle_hover = 1612
+	set gps_rescue_throttle_hover = 1622
 	set gps_rescue_throttle_max = 1850
 
 	# voltage
@@ -198,9 +198,9 @@
 
 	# rate
 	rateprofile 0
-	set thr_mid = 61
+	set thr_mid = 62
 	rateprofile 1
-	set thr_mid = 61
+	set thr_mid = 62
 
 #$ OPTION END
 
@@ -372,5 +372,33 @@
 	set thr_mid = 51
 	rateprofile 1
 	set thr_mid = 51
+
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): StealthTurtle - FlyWoo900MAh 2S - 2blade
+    # -- ADDED: StealthTurtle - FlyWoo900MAh 2S - 2blade --
+
+	# failsafe
+	rxfail 3 s 1650
+
+	# gps
+	set gps_rescue_throttle_min = 1500
+	set gps_rescue_throttle_hover = 1638
+	set gps_rescue_throttle_max = 11950
+
+	# voltage
+	set vbat_max_cell_voltage = 430
+	set vbat_warning_cell_voltage = 345
+	set vbat_min_cell_voltage = 335
+
+	# capacity
+	set bat_capacity = 900
+	set osd_cap_alarm = 750
+
+	# rate
+	rateprofile 0
+	set thr_mid = 64
+	rateprofile 1
+	set thr_mid = 64
 
 #$ OPTION END
