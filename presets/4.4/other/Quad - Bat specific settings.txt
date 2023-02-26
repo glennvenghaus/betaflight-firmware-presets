@@ -152,11 +152,11 @@
     # -- ADDED: LR Explorer/GP9 - FLYWOO900HV 4S --
 
 	# failsafe
-	rxfail 3 s 1525
+	rxfail 3 s 1475
 
 	# gps
 	set gps_rescue_throttle_min =1350
-	set gps_rescue_throttle_hover = 1510
+	set gps_rescue_throttle_hover = 1453
 	set gps_rescue_throttle_max = 1700
 
 	# voltage
@@ -170,9 +170,9 @@
 
 	# rate
 	rateprofile 0
-	set thr_mid = 51
+	set thr_mid = 46
 	rateprofile 1
-	set thr_mid = 51
+	set thr_mid = 46
 
 #$ OPTION END
 
