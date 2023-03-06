@@ -430,3 +430,31 @@
 	set thr_mid = 38
 
 #$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): SithLord - GNB850HV 3S - 3blade
+    # -- ADDED: StealthTurtle - GNB850HV 3S - 3blade --
+
+	# failsafe
+	rxfail 3 s 1350
+
+	# gps
+	set gps_rescue_throttle_min = 1200
+	set gps_rescue_throttle_hover = 1356
+	set gps_rescue_throttle_max = 1600
+
+	# voltage
+	set vbat_max_cell_voltage = 440
+	set vbat_warning_cell_voltage = 345
+	set vbat_min_cell_voltage = 335
+
+	# capacity
+	set bat_capacity = 850
+	set osd_cap_alarm = 700
+
+	# rate
+	rateprofile 0
+	set thr_mid = 36
+	rateprofile 1
+	set thr_mid = 36
+
+#$ OPTION END
