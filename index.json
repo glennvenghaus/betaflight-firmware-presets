@@ -159,7 +159,7 @@
   "presets": [
     {
       "fullPath": "presets/4.4/osd/OSD.txt",
-      "hash": "4203967c43832e9f089bdd86b5b66e978ce7c1daa327b6d124ffd1afbaac491f",
+      "hash": "1317b7318b6e77b9edf08bfa93ffa7477d9abd68d7eac8199a28b39658518e7e",
       "title": "fpvapnea - HD OSD (wtf/msp-osd)",
       "firmware_version": [
         "4.4"
@@ -212,7 +212,7 @@
     },
     {
       "fullPath": "presets/4.4/other/Quad - Bat specific settings.txt",
-      "hash": "de64d8503ed5995644b27f07356e65443c5e5435543311190f460d2b5b237592",
+      "hash": "4809294422f2a804273c923bb576b20b535e90bb1004abfe03c4fcac560d4bad",
       "title": "fpvapnea - Quad - Battery specific settings (alerts/thr/rth)",
       "firmware_version": [
         "4.4"

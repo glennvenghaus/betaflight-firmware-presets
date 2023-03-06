@@ -119,34 +119,6 @@
 
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): DigiTwig/ThumbPro - GNB1100HV 3S
-    # -- ADDED: DigiTwig/ThumbPro - GNB1100HV 3S --
-
-    # failsafe
-	rxfail 3 s 1550
-
-	# gps
-	set gps_rescue_throttle_min = 1400
-	set gps_rescue_throttle_hover = 1546
-	set gps_rescue_throttle_max = 1750
-
-	# voltage
-	set vbat_max_cell_voltage = 440
-	set vbat_warning_cell_voltage = 345
-	set vbat_min_cell_voltage = 335
-
-	# capacity
-	set bat_capacity = 1100
-	set osd_cap_alarm = 900
-
-	# rate
-	rateprofile 0
-	set thr_mid = 55
-	rateprofile 1
-	set thr_mid = 55
-
-#$ OPTION END
-
 
 #$ OPTION BEGIN (UNCHECKED): LR Explorer/GP9 - FLYWOO900HV 4S
     # -- ADDED: LR Explorer/GP9 - FLYWOO900HV 4S --
@@ -319,8 +291,8 @@
 #$ OPTION END
 
 
-#$ OPTION BEGIN (UNCHECKED): DigiStealth - Runcam - GNB1100 3S - 6blade
-    # -- ADDED: DigiStealth - Runcam - GNB1100 3S - 6blades --
+#$ OPTION BEGIN (UNCHECKED): CineStealth - Runcam - GNB1100HV 3S - 6blade
+    # -- ADDED: CineStealth - Runcam - GNB1100HV 3S - 6blades --
 
 	# failsafe
 	rxfail 3 s 1325
@@ -331,7 +303,7 @@
 	set gps_rescue_throttle_max = 1500
 
 	# voltage
-	set vbat_max_cell_voltage = 430
+	set vbat_max_cell_voltage = 440
 	set vbat_warning_cell_voltage = 345
 	set vbat_min_cell_voltage = 335
 
@@ -347,8 +319,8 @@
 
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): DigiStealth - Runcam - GNB1100 3S - 3blade
-    # -- ADDED: DigiStealth - Runcam - GNB1100 3S - 3blades --
+#$ OPTION BEGIN (UNCHECKED): CineStealth - Runcam - GNB1100HV 3S - 3blade
+    # -- ADDED: CineStealth - Runcam - GNB1100HV 3S - 3blades --
 
 	# failsafe
 	rxfail 3 s 1525
@@ -359,7 +331,7 @@
 	set gps_rescue_throttle_max = 1650
 
 	# voltage
-	set vbat_max_cell_voltage = 430
+	set vbat_max_cell_voltage = 440
 	set vbat_warning_cell_voltage = 345
 	set vbat_min_cell_voltage = 335
 
@@ -375,8 +347,8 @@
 
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): StealthTurtle - FlyWoo750MAh 2S - 2blade
-    # -- ADDED: StealthTurtle - FlyWoo750MAh 2S - 2blade --
+#$ OPTION BEGIN (UNCHECKED): StealthTurtle - FlyWoo750MAhHV 2S - 2blade
+    # -- ADDED: StealthTurtle - FlyWoo750MAhHV 2S - 2blade --
 
 	# failsafe
 	rxfail 3 s 1650
@@ -387,7 +359,7 @@
 	set gps_rescue_throttle_max = 1950
 
 	# voltage
-	set vbat_max_cell_voltage = 430
+	set vbat_max_cell_voltage = 440
 	set vbat_warning_cell_voltage = 345
 	set vbat_min_cell_voltage = 335
 
@@ -403,8 +375,8 @@
 
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): SithLord - FlyWoo750MAh 2S - 2blade
-    # -- ADDED: StealthTurtle - lyWoo750MAh 2S - 2blade --
+#$ OPTION BEGIN (UNCHECKED): SithLord - FlyWoo750MAhHV 2S - 2blade
+    # -- ADDED: StealthTurtle - lyWoo750MAhHV 2S - 2blade --
 
 	# failsafe
 	rxfail 3 s 1400
@@ -415,7 +387,7 @@
 	set gps_rescue_throttle_max = 1600
 
 	# voltage
-	set vbat_max_cell_voltage = 430
+	set vbat_max_cell_voltage = 440
 	set vbat_warning_cell_voltage = 345
 	set vbat_min_cell_voltage = 335
 
@@ -428,5 +400,33 @@
 	set thr_mid = 39
 	rateprofile 1
 	set thr_mid = 39
+
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): SithLord - FlyWoo750MAhHV 2S - 3blade
+    # -- ADDED: StealthTurtle - lyWoo750MAhHV 2S - 3blade --
+
+	# failsafe
+	rxfail 3 s 1400
+
+	# gps
+	set gps_rescue_throttle_min = 1200
+	set gps_rescue_throttle_hover = 1372
+	set gps_rescue_throttle_max = 1600
+
+	# voltage
+	set vbat_max_cell_voltage = 440
+	set vbat_warning_cell_voltage = 345
+	set vbat_min_cell_voltage = 335
+
+	# capacity
+	set bat_capacity = 750
+	set osd_cap_alarm = 600
+
+	# rate
+	rateprofile 0
+	set thr_mid = 38
+	rateprofile 1
+	set thr_mid = 38
 
 #$ OPTION END
