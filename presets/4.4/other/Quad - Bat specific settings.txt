@@ -136,6 +136,10 @@
 	set vbat_warning_cell_voltage = 345
 	set vbat_min_cell_voltage = 335
 
+	# scale
+	set vbat_scale = 111
+	set ibata_scale = 212
+
 	# capacity
 	set bat_capacity = 900
 	set osd_cap_alarm = 700
@@ -152,17 +156,21 @@
     # -- ADDED: LR Explorer/GP9 - FLYWOO3000LION 4S --
 
 	# failsafe
-	rxfail 3 s 1625
+	rxfail 3 s 1700
 
 	# gps
 	set gps_rescue_throttle_min = 1500
-	set gps_rescue_throttle_hover = 1622
+	set gps_rescue_throttle_hover = 1689
 	set gps_rescue_throttle_max = 1850
 
 	# voltage
 	set vbat_max_cell_voltage = 420
-	set vbat_warning_cell_voltage = 310
-	set vbat_min_cell_voltage = 290
+	set vbat_warning_cell_voltage = 300
+	set vbat_min_cell_voltage = 280
+
+	# scale
+	set vbat_scale = 111
+	set ibata_scale = 196
 
 	# capacity
 	set bat_capacity = 3000
@@ -170,9 +178,9 @@
 
 	# rate
 	rateprofile 0
-	set thr_mid = 62
+	set thr_mid = 69
 	rateprofile 1
-	set thr_mid = 62
+	set thr_mid = 69
 
 #$ OPTION END
 
@@ -191,6 +199,10 @@
 	set vbat_max_cell_voltage = 440
 	set vbat_warning_cell_voltage = 345
 	set vbat_min_cell_voltage = 335
+
+	# scale
+	set vbat_scale = 111
+	set ibata_scale = 212
 
 	# capacity
 	set bat_capacity = 900
@@ -219,6 +231,10 @@
 	set vbat_max_cell_voltage = 440
 	set vbat_warning_cell_voltage = 345
 	set vbat_min_cell_voltage = 335
+
+	# scale
+	set vbat_scale = 111
+	set ibata_scale = 212
 
 	# capacity
 	set bat_capacity = 1300
@@ -249,6 +265,10 @@
 	set vbat_warning_cell_voltage = 345
 	set vbat_min_cell_voltage = 335
 
+	# scale
+	set vbat_scale = 111
+	set ibata_scale = 212
+
 	# capacity
 	set bat_capacity = 1500
 	set osd_cap_alarm = 1200
@@ -277,6 +297,10 @@
 	set vbat_max_cell_voltage = 430
 	set vbat_warning_cell_voltage = 345
 	set vbat_min_cell_voltage = 335
+
+	# scale
+	set vbat_scale = 111
+	set ibata_scale = 212
 
 	# capacity
 	set bat_capacity = 1500
@@ -407,7 +431,7 @@
     # -- ADDED: StealthTurtle - lyWoo750MAhHV 2S - 3blade --
 
 	# failsafe
-	rxfail 3 s 1400
+	rxfail 3 s 1375
 
 	# gps
 	set gps_rescue_throttle_min = 1200
