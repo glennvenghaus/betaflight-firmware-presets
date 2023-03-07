@@ -164,7 +164,7 @@
 	set gps_rescue_throttle_max = 1850
 
 	# voltage
-	set vbat_max_cell_voltage = 420
+	set vbat_max_cell_voltage = 422
 	set vbat_warning_cell_voltage = 300
 	set vbat_min_cell_voltage = 280
 
@@ -173,8 +173,8 @@
 	set ibata_scale = 196
 
 	# capacity
-	set bat_capacity = 3000
-	set osd_cap_alarm = 2250
+	set bat_capacity = 2800
+	set osd_cap_alarm = 2100
 
 	# rate
 	rateprofile 0
