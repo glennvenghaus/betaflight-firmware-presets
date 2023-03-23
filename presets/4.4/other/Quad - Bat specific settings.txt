@@ -371,36 +371,9 @@
 
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): StealthTurtle - FlyWoo750MAhHV 2S - 2blade
-    # -- ADDED: StealthTurtle - FlyWoo750MAhHV 2S - 2blade --
-
-	# failsafe
-	rxfail 3 s 1650
-
-	# gps
-	set gps_rescue_throttle_min = 1500
-	set gps_rescue_throttle_hover = 1638
-	set gps_rescue_throttle_max = 1950
-
-	# voltage
-	set vbat_max_cell_voltage = 440
-	set vbat_warning_cell_voltage = 345
-	set vbat_min_cell_voltage = 335
-
-	# capacity
-	set bat_capacity = 750
-	set osd_cap_alarm = 600
-
-	# rate
-	rateprofile 0
-	set thr_mid = 64
-	rateprofile 1
-	set thr_mid = 64
-
-#$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SithLord - FlyWoo750MAhHV 2S - 2blade
-    # -- ADDED: StealthTurtle - lyWoo750MAhHV 2S - 2blade --
+    # -- ADDED: SithLord - FlyWoo750MAhHV 2S - 2blade --
 
 	# failsafe
 	rxfail 3 s 1400
@@ -428,7 +401,7 @@
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SithLord - FlyWoo750MAhHV 2S - 3blade
-    # -- ADDED: StealthTurtle - lyWoo750MAhHV 2S - 3blade --
+    # -- ADDED: SithLord - FlyWoo750MAhHV 2S - 3blade --
 
 	# failsafe
 	rxfail 3 s 1375
@@ -480,5 +453,33 @@
 	set thr_mid = 36
 	rateprofile 1
 	set thr_mid = 36
+
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): BaseLine - FlyWoo750MAhHV 2S - 3blade
+    # -- ADDED: BaseLine - FlyWoo750MAhHV 2S - 3blade --
+
+	# failsafe
+	rxfail 3 s 1600
+
+	# gps
+	set gps_rescue_throttle_min = 1400
+	set gps_rescue_throttle_hover = 1592
+	set gps_rescue_throttle_max = 1800
+
+	# voltage
+	set vbat_max_cell_voltage = 440
+	set vbat_warning_cell_voltage = 345
+	set vbat_min_cell_voltage = 335
+
+	# capacity
+	set bat_capacity = 750
+	set osd_cap_alarm = 600
+
+	# rate
+	rateprofile 0
+	set thr_mid = 59
+	rateprofile 1
+	set thr_mid = 59
 
 #$ OPTION END
