@@ -483,3 +483,31 @@
 	set thr_mid = 59
 
 #$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): NoNameRacer - GNB 850Mah HV 3S - 3blade
+    # -- ADDED: NoNameRacer - GNB 850Mah HV 3S - 3blade --
+
+	# failsafe
+	rxfail 3 s 1275
+
+	# gps
+	set gps_rescue_throttle_min = 1100
+	set gps_rescue_throttle_hover = 1259
+	set gps_rescue_throttle_max = 1500
+
+	# voltage
+	set vbat_max_cell_voltage = 440
+	set vbat_warning_cell_voltage = 345
+	set vbat_min_cell_voltage = 335
+
+	# capacity
+	set bat_capacity = 850
+	set osd_cap_alarm = 700
+
+	# rate
+	rateprofile 0
+	set thr_mid = 27
+	rateprofile 1
+	set thr_mid = 27
+
+#$ OPTION END
