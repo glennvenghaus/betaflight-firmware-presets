@@ -91,15 +91,15 @@
 
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Cinebot30/no cam - FLYWOO900HV 4S
-    # -- ADDED: Cinebot30/no cam - FLYWOO900HV 4S --
+#$ OPTION BEGIN (UNCHECKED): Cinebot30/no cam - FLYWOO900HV 4S - 5 blades
+    # -- ADDED: Cinebot30/no cam - FLYWOO900HV 4S -- 5 blades
 
 	# failsafe
-	rxfail 3 s 1450
+	rxfail 3 s 1300
 
 	# gps
 	set gps_rescue_throttle_min = 1300
-	set gps_rescue_throttle_hover = 1443
+	set gps_rescue_throttle_hover = 1295
 	set gps_rescue_throttle_max = 1650
 
 	# voltage
@@ -113,9 +113,9 @@
 
 	# rate
 	rateprofile 0
-	set thr_mid = 45
+	set thr_mid = 30
 	rateprofile 1
-	set thr_mid = 45
+	set thr_mid = 30
 
 #$ OPTION END
 
@@ -456,16 +456,16 @@
 
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): BaseLine - FlyWoo750MAhHV 2S - 3blade
-    # -- ADDED: BaseLine - FlyWoo750MAhHV 2S - 3blade --
+#$ OPTION BEGIN (UNCHECKED): BaseRacer - FlyWoo750MAhHV 2S - 3blade
+    # -- ADDED: BaseRacer - FlyWoo750MAhHV 2S - 3blade --
 
 	# failsafe
-	rxfail 3 s 1600
+	rxfail 3 s 1450
 
 	# gps
-	set gps_rescue_throttle_min = 1400
-	set gps_rescue_throttle_hover = 1592
-	set gps_rescue_throttle_max = 1800
+	set gps_rescue_throttle_min = 1350
+	set gps_rescue_throttle_hover = 1448
+	set gps_rescue_throttle_max = 1700
 
 	# voltage
 	set vbat_max_cell_voltage = 440
@@ -478,9 +478,9 @@
 
 	# rate
 	rateprofile 0
-	set thr_mid = 59
+	set thr_mid = 45
 	rateprofile 1
-	set thr_mid = 59
+	set thr_mid = 45
 
 #$ OPTION END
 
