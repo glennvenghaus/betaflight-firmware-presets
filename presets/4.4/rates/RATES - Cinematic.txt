@@ -19,10 +19,10 @@ set rateprofile_name = Rate-X
 set thr_expo = 50
 set pitch_rc_rate = 6
 set yaw_rc_rate = 5
-set roll_expo = 100
-set pitch_expo = 75
-set yaw_expo = 50
-set roll_srate = 72
+set roll_expo = 0
+set pitch_expo = 0
+set yaw_expo = 25
+set roll_srate = 36
 set pitch_srate = 25
 set yaw_srate = 20
 
