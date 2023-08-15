@@ -550,11 +550,11 @@
     # -- ADDED: REKON 6/GP9 - GNB1500HV 4S - 3 Blade --
 
 	# failsafe
-	rxfail 3 s 1450
+	rxfail 3 s 1400
 
 	# gps
 	set gps_rescue_throttle_min = 1300
-	set gps_rescue_throttle_hover = 1450
+	set gps_rescue_throttle_hover = 1400
 	set gps_rescue_throttle_max = 1650
 
 	# voltage
@@ -572,8 +572,8 @@
 
 	# rate
 	rateprofile 0
-	set thr_mid = 45
+	set thr_mid = 40
 	rateprofile 1
-	set thr_mid = 45
+	set thr_mid = 40
 
 #$ OPTION END
