@@ -513,3 +513,67 @@
 	set thr_mid = 27
 
 #$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): REKON 6/GP9 - FLYWOO3000LION 4S - 3 Blade
+    # -- ADDED: REKON 6/GP9 - FLYWOO3000LION 4S - 3 Blade --
+
+	# failsafe
+	rxfail 3 s 1450
+
+	# gps
+	set gps_rescue_throttle_min = 1300
+	set gps_rescue_throttle_hover = 1450
+	set gps_rescue_throttle_max = 1650
+
+	# voltage
+	set vbat_max_cell_voltage = 422
+	set vbat_warning_cell_voltage = 300
+	set vbat_min_cell_voltage = 280
+
+	# scale
+	set vbat_scale = 111
+	set ibata_scale = 213
+
+	# capacity
+	set bat_capacity = 2800
+	set osd_cap_alarm = 2100
+
+	# rate
+	rateprofile 0
+	set thr_mid = 45
+	rateprofile 1
+	set thr_mid = 45
+
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): REKON 6/GP9 - GNB1500HV 4S - 3 Blade
+    # -- ADDED: REKON 6/GP9 - GNB1500HV 4S - 3 Blade --
+
+	# failsafe
+	rxfail 3 s 1450
+
+	# gps
+	set gps_rescue_throttle_min = 1300
+	set gps_rescue_throttle_hover = 1450
+	set gps_rescue_throttle_max = 1650
+
+	# voltage
+	set vbat_max_cell_voltage = 440
+	set vbat_warning_cell_voltage = 345
+	set vbat_min_cell_voltage = 335
+
+	# scale
+	set vbat_scale = 111
+	set ibata_scale = 213
+
+	# capacity
+	set bat_capacity = 1500
+	set osd_cap_alarm = 1250
+
+	# rate
+	rateprofile 0
+	set thr_mid = 45
+	rateprofile 1
+	set thr_mid = 45
+
+#$ OPTION END
