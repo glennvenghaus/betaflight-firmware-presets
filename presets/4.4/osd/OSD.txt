@@ -20,6 +20,7 @@ set osd_rate_profile_name_pos = 2107
 set osd_warnings_pos = 2330
 set osd_disarmed_pos = 2362
 set osd_flymode_pos = 3093
+set displayport_msp_fonts = 0,0,0,0
 
 #timer
 set osd_tim2 = 1
