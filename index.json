@@ -214,8 +214,8 @@
     },
     {
       "fullPath": "presets/4.4/other/MODES - Standard modes settings V2.txt",
-      "hash": "ab397af7a7d65b323790631e39148ece32736d7a040eae6ef6b49ef4b203af78",
-      "title": "fpvapnea - Basic post build settings (CRSF/VISTA/Tango 2)",
+      "hash": "4611ce9fce9b4e459d19dc31dd0b43d5772ef7a31ac9ae8e05b08f803aec7a9a",
+      "title": "fpvapnea - MODES settings TBS Tango 2 - V2",
       "firmware_version": [
         "4.4, 4.5"
       ],

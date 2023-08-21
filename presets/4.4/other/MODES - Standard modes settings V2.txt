@@ -1,4 +1,4 @@
-#$ TITLE: fpvapnea - Basic post build settings (CRSF/VISTA/Tango 2)
+#$ TITLE: fpvapnea - MODES settings TBS Tango 2 - V2
 #$ FIRMWARE_VERSION: 4.4, 4.5
 #$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL
