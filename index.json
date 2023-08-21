@@ -133,7 +133,8 @@
   },
   "uniqueValues": {
     "firmware_version": [
-      "4.4"
+      "4.4",
+      "4.4, 4.5"
     ],
     "category": [
       "OSD",
@@ -150,6 +151,7 @@
       "defaults",
       "gps",
       "master",
+      "modes",
       "osd",
       "rates",
       "rescue",
@@ -159,7 +161,7 @@
   "presets": [
     {
       "fullPath": "presets/4.4/osd/OSD.txt",
-      "hash": "1317b7318b6e77b9edf08bfa93ffa7477d9abd68d7eac8199a28b39658518e7e",
+      "hash": "6f94a313591dd2a624455cd8d0e3073bac5aca0f7662767383096f9a62500f1a",
       "title": "fpvapnea - HD OSD (wtf/msp-osd)",
       "firmware_version": [
         "4.4"
@@ -175,7 +177,7 @@
     },
     {
       "fullPath": "presets/4.4/other/BUILD - Basic post build settings.txt",
-      "hash": "ff300f5e5994581f3f0f0b32a295a826008a5d58cae144141a89475d1ab31827",
+      "hash": "bd418e7932c4b1346032b20a8b2f54edf144ce5d5dede58d30234f8df6b22a1b",
       "title": "fpvapnea - Basic post build settings (CRSF/VISTA/Tango 2)",
       "firmware_version": [
         "4.4"
@@ -211,8 +213,26 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.4/other/MODES - Standard modes settings V2.txt",
+      "hash": "ab397af7a7d65b323790631e39148ece32736d7a040eae6ef6b49ef4b203af78",
+      "title": "fpvapnea - Basic post build settings (CRSF/VISTA/Tango 2)",
+      "firmware_version": [
+        "4.4, 4.5"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "defaults",
+        "master",
+        "build",
+        "modes"
+      ],
+      "author": "gvapnea",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.4/other/Quad - Bat specific settings.txt",
-      "hash": "c7b0d2131c19a16afcdb3b25120099de1bd8e364742a06eb3ecca77d7e5fcc24",
+      "hash": "ade2233a49a2e108508815b4ee30e64e9c6124fecfbfd8bacacc14cae487e650",
       "title": "fpvapnea - Quad - Battery specific settings (alerts/thr/rth)",
       "firmware_version": [
         "4.4"

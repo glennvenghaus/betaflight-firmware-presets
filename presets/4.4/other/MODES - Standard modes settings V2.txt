@@ -1,16 +1,16 @@
 #$ TITLE: fpvapnea - Basic post build settings (CRSF/VISTA/Tango 2)
-#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.4, 4.5
 #$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: defaults, master, build
+#$ KEYWORDS: defaults, master, build, modes
 #$ AUTHOR: gvapnea
-#$ DESCRIPTION: Basic post build settings (CRSF/VISTA/Tango 2)
+#$ DESCRIPTION: MODES settings TBS Tango 2 - V2
 #$ PRIORITY: 0
 
 #  basics
 
 # feature
-feature -AIRMODE
+feature AIRMODE
 feature GPS
 feature TELEMETRY
 feature OSD
@@ -29,7 +29,7 @@ beacon RX_SET
 # map
 map TREA1234
 
-# aux v2
+# aux
 aux 0 0 0 1925 2100 0 0
 aux 1 1 3 1925 2100 0 0
 aux 2 46 2 1925 2100 0 0
@@ -50,6 +50,7 @@ aux 16 0 0 900 900 0 0
 aux 17 0 0 900 900 0 0
 aux 18 0 0 900 900 0 0
 aux 19 0 0 900 900 0 0
+
 
 
 # adjrange
