@@ -46,6 +46,25 @@ set osd_alt_alarm = 120
 	set osd_pid_profile_name_pos = 2107
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): GPS LongRange
+    # -- ADDED: For LR Quad with GPS --
+    set osd_stat_bitmask = 413500
+	set osd_warn_bitmask = 188415
+	set osd_gps_speed_pos = 2700
+	set osd_gps_lon_pos = 34850
+	set osd_gps_lat_pos = 34818
+	set osd_gps_sats_pos = 2669
+	set osd_home_dir_pos = 2622
+	set osd_home_dist_pos = 2738
+	set osd_flight_dist_pos = 2732
+	set osd_altitude_pos = 19090
+	set osd_current_pos = 2723
+	set osd_throttle_pos = 2693
+	set osd_gps_sats_show_hdop = ON
+	set osd_pit_ang_pos = 2661
+	set osd_link_tx_power_pos = 3123
+#$ OPTION END
+
 #$ OPTION BEGIN (UNCHECKED): GPS
     # -- ADDED: For Quad with GPS --
     set osd_stat_bitmask = 413500

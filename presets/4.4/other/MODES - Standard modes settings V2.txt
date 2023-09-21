@@ -1,5 +1,5 @@
 #$ TITLE: fpvapnea - MODES settings TBS Tango 2 - V2
-#$ FIRMWARE_VERSION: 4.4, 4.5
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: defaults, master, build, modes

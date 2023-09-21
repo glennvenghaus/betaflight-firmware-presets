@@ -518,7 +518,7 @@
     # -- ADDED: REKON 6/GP9 - FLYWOO3000LION 4S - 3 Blade --
 
 	# failsafe
-	rxfail 3 s 1450
+	rxfail 3 s 1500
 
 	# gps
 	set gps_rescue_throttle_min = 1300
@@ -527,8 +527,8 @@
 
 	# voltage
 	set vbat_max_cell_voltage = 422
-	set vbat_warning_cell_voltage = 300
-	set vbat_min_cell_voltage = 280
+	set vbat_warning_cell_voltage = 310
+	set vbat_min_cell_voltage = 290
 
 	# scale
 	set vbat_scale = 111
@@ -575,5 +575,37 @@
 	set thr_mid = 40
 	rateprofile 1
 	set thr_mid = 40
+
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): REKON 6/GP9 - SAMSUNG4000LION 4S - 3 Blade
+    # -- ADDED: REKON 6/GP9 - SAMSUNG4000LION 4S - 3 Blade --
+
+	# failsafe
+	rxfail 3 s 1550
+
+	# gps
+	set gps_rescue_throttle_min = 1300
+	set gps_rescue_throttle_hover = 1525
+	set gps_rescue_throttle_max = 1750
+
+	# voltage
+	set vbat_max_cell_voltage = 422
+	set vbat_warning_cell_voltage = 330
+	set vbat_min_cell_voltage = 300
+
+	# scale
+	set vbat_scale = 111
+	set ibata_scale = 213
+
+	# capacity
+	set bat_capacity = 3800
+	set osd_cap_alarm = 3100
+
+	# rate
+	rateprofile 0
+	set thr_mid = 50
+	rateprofile 1
+	set thr_mid = 50
 
 #$ OPTION END
